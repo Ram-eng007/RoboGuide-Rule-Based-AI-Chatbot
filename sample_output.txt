@@ -1,0 +1,71 @@
+==============================================================
+                    ROBOGUIDE
+             Rule-Based AI Chatbot
+==============================================================
+Type 'help' for supported topics.
+Type 'bye', 'exit', 'quit', or 'stop' to end the chat.
+--------------------------------------------------------------
+
+Conversation 1 — Greeting and Identity
+
+You: hello
+RoboGuide: Hello! 👋 I'm RoboGuide. How can I help you?
+
+You: what is your name?
+RoboGuide: I'm RoboGuide, a rule-based AI chatbot built with Python.
+
+You: how are you?
+RoboGuide: I'm running perfectly and ready to chat! 🤖
+
+You: bye
+RoboGuide: Goodbye! 👋 Have a great day!
+
+
+Conversation 2 — Capabilities and Help
+
+You: hey there
+RoboGuide: Hello! 👋 I'm RoboGuide. How can I help you?
+
+You: what can you do?
+RoboGuide: I can handle greetings, basic questions, help requests, thanks, simple conversation, and common chatbot commands.
+
+You: help
+RoboGuide: You can try: hello, what is your name?, how are you?, what can you do?, tell me the time, tell me the date, thank you, or bye.
+
+You: thank you
+RoboGuide: You're welcome! 😊
+
+You: exit
+RoboGuide: Goodbye! 👋 Have a great day!
+
+
+Conversation 3 — Knowledge-Based Responses
+
+You: what is Python?
+RoboGuide: Python is a high-level programming language known for its readability and wide range of applications.
+
+You: what is artificial intelligence?
+RoboGuide: Artificial Intelligence is the field of building systems that perform tasks that normally require human-like intelligence.
+
+You: what is a rule-based system?
+RoboGuide: A rule-based system uses predefined rules to map user inputs to responses. RoboGuide uses explicit conditions and a knowledge base.
+
+
+Conversation 4 — Date, Time, and Fallback
+
+You: tell me the time
+RoboGuide: The current time is [current time].
+
+You: what is today's date?
+RoboGuide: Today's date is [current date].
+
+You: what is quantum computing?
+RoboGuide: I'm sorry, I don't understand that yet. Try 'help' to see supported topics.
+
+You: quit
+RoboGuide: Goodbye! 👋 Have a great day!
+
+
+Note:
+The date/time values depend on when the program is executed.
+The fallback response demonstrates behavior for unsupported inputs.
