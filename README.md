@@ -4,6 +4,11 @@ RoboGuide is a beginner-friendly conversational chatbot developed in Python usin
 
 The project demonstrates introductory AI and Python programming without machine learning, large language models, external APIs, or third-party packages.
 
+## Demo
+
+![RoboGuide Chatbot Demo](robo-guide-demo.png)
+
+
 ## Objective
 
 Build a simple conversational system that can recognize common intents, respond to predefined questions, handle different phrasings, continue a conversation, and provide a fallback for unsupported inputs.
@@ -157,6 +162,9 @@ All chatbot tests passed.
 ```
 
 An additional `tests/test_chatbot.py` file can be used with a standard test runner such as `pytest` if that is installed separately.
+
+
+
 
 ## Limitations
 
